@@ -13,11 +13,6 @@ public class Game : MonoBehaviour {
         Action a = () =>
         {
             
-            foreach (var item in prefabTargets)
-            { 
-                item.active = false;
-            }
-
         };
         Scheduler._instance.ScheduleParameter(delay, a);
     }

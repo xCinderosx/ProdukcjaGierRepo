@@ -11,15 +11,6 @@ public class Scheduler : MonoBehaviour
     {
         _instance = this;
     }
-    // Use this for initialization
-    void Start () {
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void ScheduleParameter (float delay, Action action)
     {
