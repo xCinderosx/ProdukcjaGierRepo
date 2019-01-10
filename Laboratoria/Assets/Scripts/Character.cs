@@ -55,7 +55,7 @@ namespace PlayerCharacter
             {
                 Invicible = false;
             };
-            Scheduler._instance.ScheduleParameter(5, a);
+            CoroutineScheduler._instance.ScheduleParameter(5, a);
             Destroy(pickup.gameObject);
         }
 

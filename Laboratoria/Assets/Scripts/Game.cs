@@ -14,7 +14,7 @@ public class Game : MonoBehaviour {
         {
             
         };
-        Scheduler._instance.ScheduleParameter(delay, a);
+        CoroutineScheduler._instance.ScheduleParameter(delay, a);
     }
 	
 	// Update is called once per frame
